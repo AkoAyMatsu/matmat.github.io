@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Facebook
+        </title>
+
+        <style>
+            @font-face {
+                font-family: klavika-bold;
+                src:url(Klavika/klavika-bold.otf);
+            }
+            @font-face {
+                font-family: klavika-light;
+                src:url(Klavika/klavika-light.otf);
+            }
+            @font-face {
+                font-family: klavika-medium;
+                src:url(Klavika/klavika-medium.otf);
+            }
+            #facebook{
+                color: white;
+                padding: 40px;
+                font-family:klavika-bold;
+                font-size: 50px;
+                font-weight:bold;
+                z-index:1;
+            }
+            #bluebox{
+                background-color: #3b5998;
+                
+                width:1280px;
+                height:100px;
+                position:absolute;
+                top:0px;
+                left:0px;
+                z-index:0;
+            }
+            #emailOrPhone{
+                color: white;
+                font-family:sans-serif;
+                font-size:10px;
+                z-index:2;
+                top:22px;
+                right:450px;
+                position:absolute;
+            }
+            #password{
+                color: white;
+                font-family:sans-serif;
+                font-size:10px;
+                z-index:3;
+                bottom: 67px;
+                right:290px;
+                position:absolute;
+            }
+            #emailBox{
+                width: 50px;
+                height: 50px;
+                position:absolute;
+                z-index:5;
+                bottom: 45px;
+                right: 476px;
+                font-family:sans-serif;
+            }
+            #passBox{
+                width: 50px;
+                height: 50px;
+                position:absolute;
+                z-index:6;
+                bottom: 45px;
+                right: 290px;
+                font-family:sans-serif;
+            }
+            #loginBtn{
+                z-index:7;
+                bottom:29px;
+                right: 100px;
+                position:absolute;
+            }
+            #loggedIn{
+                font-family:sans-serif;
+                font-weight:normal;
+                font-size:10.5px;
+                z-index:8;
+                color:white;
+                bottom:20px;
+                right: 420px;
+                position:absolute;
+            }
+            #forgotPass{
+                font-family:sans-serif;
+                font-weight:lighter;
+                font-size:10.5px;
+                z-index:9;
+                color:white;
+                bottom:20px;
+                right: 228px;
+                position:absolute;
+            }
+            #checkBox{
+                color:white;
+                top:30px;
+                right: 505px;
+                position:absolute;
+                z-index: 10;
+                color:black;
+            }
+            #text1{
+                position: absolute;
+                font-family:klavika-bold;
+                color:black;
+                font-size:30px;
+                right:460px;
+                top: 120px;
+            }
+            #text2{
+                position:absolute;
+                font-family:klavika-light;
+                font-weight:lighter;
+                color:black;
+                top:160px;
+                right:308px;
+                font-size:18px;
+    
+            }
+            #Name{
+                position: absolute;
+                top:170px;
+                right:170px;
+            }
+            #Email{
+                position: absolute;
+                top:215px;
+                right:170px;
+            }
+            #reenter{
+                position: absolute;
+                top:260px;
+                right:170px;
+            }
+            #newPass{
+                position: absolute;
+                top:305px;
+                right:170px;
+            }
+            #text3{
+                color:black;
+                font-family:klavika-light;
+                font-size:20px;
+                position: absolute;
+                top: 380px;
+                right:480px;
+            }
+            #Date{
+                position: absolute;
+                top:380px;
+                right:350px;
+            }
+            #gender{
+                position: absolute;
+                top:450px;
+                right:420px;
+                color:black;
+                font-size:17px;
+                font-family: klavika-light;
+            }
+            #finSignUp{
+                color:black;
+                font-weight:lighter;
+                font-size:10px;
+                top: 515px;
+                right:270px;
+                position:absolute;
+                font-family:sans-serif;
+            }
+            #signUpButton{
+                top: 530px;
+                right:365px;
+                position:absolute;
+            }
+            #text4{
+                top: 410px;
+                right: 220px;
+                position:absolute;
+            }
+            #text5{
+                top:150px;
+                left: 50px;
+                position:absolute;
+            }
+            #text6{
+                top:540px;
+                right:300px;
+                position:absolute;
+            }
+            body{
+                background-color:white;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div id="bluebox">
+            <div id="facebook">facebook
+                <div id="emailOrPhone">Email or Phone</div>
+                <div id="password">Password</div>
+                <div id="emailBox">
+                    <table border="0">
+                        <tr>
+                            <td><input type=text /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="passBox">
+                    <table border="0">
+                        <tr>
+                            <td><input type=password /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="loggedIn">Keep me logged in</div>
+                <div id="forgotPass">Forgot your password?</div>
+                <div id="loginBtn">
+                    <table border="0">
+                        <tr>
+                            <td align="center"><input type="button" value="Log In" style="background-color:#5479c1; color:white; width:50px; height:21px; border-radius:2px; padding:2px; font-family:sans-serif; font-size: 11px; font-weight:bold; border-style:hidden"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="checkBox">
+                    <table border="0">
+                        <tr>
+                            <td><input type="checkbox" /></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="text1">Sign Up</div>
+                <div id="text2">It's always free and always will be</div>
+                <div id="Name">
+                    <table border="0">
+                        <tr>
+                            <td><input type=text style="width:180px; height:30px" placeholder="First Name"/></td>
+                            <td><input type=text style="width:180px; height:30px" placeholder="Last Name"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="Email">
+                    <table border="0">
+                        <tr>
+                            <td><input type=text style="width:371px; height:30px" placeholder="Email or mobile number"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="reenter">
+                    <table border="0">
+                        <tr>
+                            <td><input type=text style="width:371px; height:30px" placeholder="Re-enter email or mobile number"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="newPass">
+                    <table border="0">
+                        <tr>
+                            <td><input type=password style="width:371px; height:30px" placeholder="New password"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="text3">Birthday</div>
+                <div id="Date">
+                    <table border="0">
+                        <tr>
+                            <td>
+                                <select>
+                                    <option>Month</option>
+                                    <option>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                    <option>June</option>
+                                    <option>July</option>
+                                    <option>August</option>
+                                    <option>September</option>
+                                    <option>October</option>
+                                    <option>November</option>
+                                    <option>December</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Day</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>Year</option>
+                                    <option>1980</option>
+                                    <option>1981</option>
+                                    <option>1982</option>
+                                    <option>1983</option>
+                                    <option>1984</option>
+                                    <option>1985</option>
+                                    <option>1986</option>
+                                    <option>1987</option>
+                                    <option>1989</option>
+                                    <option>1990</option>
+                                    <option>1991</option>
+                                    <option>1992</option>
+                                    <option>1993</option>
+                                    <option>1994</option>
+                                    <option>1995</option>
+                                    <option>1996</option>
+                                    <option>1997</option>
+                                    <option>1998</option>
+                                    <option>1999</option>
+                                    <option>2000</option>
+                                    <option>2001</option>
+                                    <option>2002</option>
+                                    <option>2003</option>
+                                    <option>2004</option>
+                                    <option>2005</option>
+                                    <option>2006</option>
+                                    <option>2007</option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                    <option>2010</option>
+                                    <option>2011</option>
+                                    <option>2012</option>
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                    <option>2023</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="gender">
+                    <table border="0">
+                        <tr>
+                            <td><input type="radio" name="gender"/>Female</td>
+                            <td><input type="radio" name="gender"/>Male</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="finSignUp">
+                    <p style="line-height:1px;">By clicking Sign-Up, you agree to our <font style="color:blue">Terms</font> and that you have</p>
+                    <p style="line-height:1px;">
+                        read our <font style="color:blue">Data Policy</font>, including our <font style="color:blue">Cookie Use.</font>
+                    </p>
+                </div>
+                <div id="signUpButton">
+                    <table border="0">
+                        <tr>
+                            <td align="center"><input type="button" value="Sign Up" style="background-color:rgb(37, 179, 37); color:white; width:180px; height:40px; border-radius:4px; padding:5px; font-family:klavika-medium; font-size: 23px; font-weight:bold; border-style:hidden"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="text4">
+                    <p style="color:blue; font-size:9.5px; font-family:sans-serif; font-weight:lighter; line-height:1px;">Why do I need to provide my</p>
+                    <p style="color:blue; font-size:9.5px; font-family:sans-serif; font-weight:lighter; line-height:1px;">birthday?</p>
+                </div>
+                <div id="text5">
+                    <p style="font-family:klavika-medium; color:black; font-weight:bold; font-size:25px; line-height:10px;">Connect with friends and the</p>
+                    <p style="font-family:klavika-medium; color:black; font-weight:bold; font-size:25px; line-height:10px;">world around you on Facebook</p>
+                </div>
+                <div id="text6">
+                    <p><font style="color:blue; font-family:sans-serif; font-size:11px; font-weight:bold">Create a page </font><font style="color:black; font-family:sans-serif;font-weight:bold; font-size:11px">for a celebrity, band or business</font></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
