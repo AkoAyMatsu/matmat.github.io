@@ -1,0 +1,627 @@
+#roof{
+    background-color: rgb(177, 35, 35);
+    width: 1250px;
+    height:25px;
+    top:10px;
+    left:15px;
+    position:absolute;
+    z-index:0;
+}
+#floors{
+    background-color: white;
+    border:solid;
+    border-radius:4px;
+    width: 1100px;
+    height:500px;
+    top:65px;
+    left:90px;
+    position:absolute;
+    z-index:2;
+}
+#layerNgRoof{
+    width: 1130px;
+    top:35px;
+    left: 15px;
+    position:absolute;
+    z-index:1;
+    border-top: 70px solid gray;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+}
+#thirdFloor{
+    position:absolute;
+    z-index:3;
+    left:92px;
+    top:67px;
+    background-color: white;
+}
+#secondFloor{
+    position:absolute;
+    z-index:3;
+    left:92px;
+    top:226px;
+    background-color: white;
+
+}
+#groundFloor{
+    position:absolute;
+    z-index:3;
+    left:92px;
+    top:396px;
+    background-color: white;
+
+}
+#firstDivision{
+    background-color: rgb(215, 191, 191);
+    width: 1050px;
+    height:5px;
+    top:220px;
+    left:116px;
+    position:absolute;
+    z-index:3;
+}
+#firstDivision1{
+    width: 948px;
+    top: 225px;;
+    left: 116px;
+    position:absolute;
+    z-index:3;
+    border-top: 10px solid rgb(179, 138, 138);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+#secondDivision{
+    background-color: rgb(215, 191, 191);
+    width: 745px;
+    height:5px;
+    top:382px;
+    left:116px;
+    position:absolute;
+    z-index:3;
+}
+#secondDivision1{
+    width: 645px;
+    top: 387px;;
+    left: 116px;
+    position:absolute;
+    z-index:3;
+    border-top: 10px solid rgb(179, 138, 138);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+#ccsLogo{
+    background-color:rgb(51, 115, 189);
+    width:300px;
+    height:28px;
+    position:absolute;
+    z-index: 15;
+    top:380px;
+    left:865px;
+    text-align: center;
+    color:rgb(215, 214, 214);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:19px;
+    padding-top:5px;
+}
+#door1{
+    background-color:gray;
+    width:40px;
+    height: 70px;
+    position:absolute;
+    z-index:4;
+    top:141px;
+    left:195px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob1{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 200px;
+    top:175px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:5;
+}
+#windows1{
+    z-index:6;
+    position:absolute;
+    top:140px;
+    left:121px;
+}
+#windows2{
+    z-index:7;
+    position:absolute;
+    top:140px;
+    left:330px;
+}
+#side1{
+    top: 104px;
+    background-color: gray;
+    left:1194;
+    position:absolute;
+    width:11px;
+    height:463px;
+    border-bottom-right-radius: 40px 100px ;
+    z-index:3;
+}
+#side2{
+    top: 103px;
+    background-color: gray;
+    left: 75px;
+    position:absolute;
+    width:15px;
+    height:463px;
+    border-bottom-left-radius: 40px 100px ;
+    z-index:15;
+}
+#door2{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:141px;
+    left:280px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob2{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 285px;
+    top:177px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#door3{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:141px;
+    left: 500px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob3{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 505px;
+    top:177px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows3{
+    z-index:7;
+    position:absolute;
+    top:140px;
+    left: 430px;;
+}
+#door4{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:141px;
+    left: 585px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob4{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 590px;
+    top:177px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows4{
+    z-index:7;
+    position:absolute;
+    top:140px;
+    left: 637px;
+}
+#door5{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:141px;
+    left: 810px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob5{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 815px;
+    top:177px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows5{
+    z-index:7;
+    position:absolute;
+    top:140px;
+    left: 737px;
+}
+#door6{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:141px;
+    left: 890px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob6{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 895px;
+    top:177px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows6{
+    z-index:7;
+    position:absolute;
+    top:140px;
+    left: 938px;
+}
+
+#door7{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:299px;
+    left: 195px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob7{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 200px;
+    top:329px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows7{
+    z-index:7;
+    position:absolute;
+    top: 298px;
+    left: 125px;
+}
+
+#door8{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:299px;
+    left: 280px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob8{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 285px;
+    top:329px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows8{
+    z-index:7;
+    position:absolute;
+    top: 298px;
+    left: 330px;
+}
+
+#door9{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:299px;
+    left: 500px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob9{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 505px;
+    top:329px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows9{
+    z-index:7;
+    position:absolute;
+    top: 298px;
+    left: 430px;
+}
+
+#door10{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:299px;
+    left: 586px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob10{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 590px;
+    top:329px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows10{
+    z-index:7;
+    position:absolute;
+    top: 298px;
+    left: 635px;
+}
+
+#door11{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:299px;
+    left: 810px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob11{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 814px;
+    top:329px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows11{
+    z-index:7;
+    position:absolute;
+    top: 298px;
+    left: 737px;
+}
+
+#door12{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:299px;
+    left: 891px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob12{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 895px;
+    top:329px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows12{
+    z-index:7;
+    position:absolute;
+    top: 298px;
+    left: 939px;
+}
+
+#door13{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:470px;
+    left: 197px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob13{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 200px;
+    top:500px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows13{
+    z-index:7;
+    position:absolute;
+    top: 468px;
+    left: 125px;
+}
+
+#door14{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:470px;
+    left: 280px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob14{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 284px;
+    top:500px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows14{
+    z-index:7;
+    position:absolute;
+    top: 468px;
+    left: 329px;
+}
+
+#door15{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:470px;
+    left: 501px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob15{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 506px;
+    top:500px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows15{
+    z-index:7;
+    position:absolute;
+    top: 468px;
+    left: 432px;
+}
+
+#door16{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:470px;
+    left: 585px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob16{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 590px;
+    top:500px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows16{
+    z-index:7;
+    position:absolute;
+    top: 468px;
+    left: 634px;
+}
+
+#door17{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:470px;
+    left: 810px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob17{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 813px;
+    top:500px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows17{
+    z-index:7;
+    position:absolute;
+    top: 468px;
+    left: 740px;
+}
+
+#door18{
+    background-color:gray;
+    width:40px;
+    height:70px;
+    position:absolute;
+    z-index:8;
+    top:470px;
+    left: 891px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+#doorknob18{
+    background-color: black;
+    width: 8px;
+    height:8px;
+    left: 895px;
+    top:500px;
+    position: absolute;
+    border-radius: 50%;
+    z-index:9;
+}
+#windows18{
+    z-index:7;
+    position:absolute;
+    top: 468px;
+    left: 939px;
+}
+#CCS{
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    border-style:hidden;
+    border-radius:25px;
+    width:30px;
+    height:30px;
+    left: 1010;
+    top: 350;
+    position:absolute;
+    z-index:15;
+}
+#container{
+    z-index:15;
+    position: fixed;
+}
+body{
+    background-color: rgb(26, 26, 96);
+    margin: 0 10% 0 10%;
+}
